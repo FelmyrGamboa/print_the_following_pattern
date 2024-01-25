@@ -12,6 +12,6 @@ for row in range(1,6):
 #Create another for loop for the column of pattern
     for column in range(row):
 #Display the output for the column
-        print(row, end="")
+        print(row, end=" ")
 #Display the output for the row
-    print("")
+    print(" ")
