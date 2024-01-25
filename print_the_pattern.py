@@ -14,4 +14,4 @@ for column in range(1,6):
 #Display the output for the column
         print(column, end=" ")
 #Display the output for the row
-    print(" ")
+    print("")
