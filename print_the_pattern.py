@@ -8,10 +8,10 @@
 # 5 5 5 5 5
 
 #Create a for loop for the row pattern
-for row in range(1,6):
+for column in range(1,6):
 #Create another for loop for the column of pattern
-    for column in range(row):
+    for row in range(column):
 #Display the output for the column
-        print(row, end=" ")
+        print(column, end=" ")
 #Display the output for the row
     print(" ")
